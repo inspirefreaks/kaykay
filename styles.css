@@ -77,6 +77,15 @@ body{
     /* border: 2px solid; */
 }
 
+
+
+@media screen and (max-width: 576px)
+{
+    .style-5{
+        height: 7rem;
+    }
+}
+
 .style-6 {
     padding: 0px;
     min-height: 0px;
@@ -87,6 +96,14 @@ body{
     margin-bottom: 0px;
     
     /* border: 2px solid blue; */
+}
+
+@media screen and (max-width: 576px)
+{
+    .style-6{
+        padding: 0 1em;
+        margin-top: 9px;
+    }
 }
 
 .style-7 {
@@ -107,6 +124,14 @@ body{
     
 }
 
+@media screen and (max-width: 576px)
+{
+    .style-7{
+        min-height: 56.24px;
+        padding: 8px 20px;
+    }
+}
+
 .style-8 {
     width: 100%;
     line-height: 31.5px;
@@ -125,7 +150,7 @@ body{
 }
 
 .style-10 {
-    width: 24.75rem;
+    width: 29.75rem;
     line-height: 31.5px;
     display: block;
     border-bottom: 0px none rgb(15, 100, 147);
@@ -139,6 +164,14 @@ body{
     background-color: rgba(0, 0, 0, 0);
     margin-left: 30px;
     /* border: 2px solid; */
+}
+
+@media screen and (max-width: 576px)
+{
+    .style-10{
+        width: 21.75rem;
+        margin-left: -14px;
+    }
 }
 
 .style-10:hover{
@@ -194,6 +227,15 @@ body{
     width: 100%;
     display: block;
     box-sizing: border-box;
+    
+}
+
+@media screen and (max-width: 576px)
+{
+    .style-14{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .style-15 {
@@ -204,6 +246,17 @@ body{
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+    
+
+}
+
+@media screen and (max-width: 576px)
+{
+    .style-15{
+        padding: 0px 3px;
+        max-width: 100%;
+        margin-top: 0px;
+    }
 }
 
 .style-16 {
@@ -212,6 +265,8 @@ body{
     padding-left: 0px;
     padding-right: 0px;
     box-sizing: border-box;
+    
+
 }
 
 .style-17 {
@@ -219,11 +274,15 @@ body{
     line-height: 31.5px;
     width: 100%;
     box-sizing: border-box;
+    
+
 }
 
 .style-18 {
     line-height: 31.5px;
     box-sizing: border-box;
+    
+
 }
 
 .style-19 {
@@ -233,12 +292,16 @@ body{
     box-sizing: border-box;
     min-height: 1px;
     position: relative;
+    
+
 }
 
 .style-20 {
     line-height: 31.5px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
+    
+
 }
 
 .style-21 {
@@ -249,6 +312,8 @@ body{
     margin: 0px auto;
     width: 100%;
     box-sizing: border-box;
+    
+
 }
 
 .style-22 {
@@ -285,7 +350,7 @@ body{
         background-repeat: no-repeat;
         background-position: right 0.4em;
         background-size: 1.125em auto;
-        background-image: url(left-chevron-black-16111.svg);
+        background-image: url(../image/left-chevron-black-16111.svg);
   }
 
 .style-23 {
@@ -662,7 +727,7 @@ input:focus{
     top: 0.25rem;
     content: "";
     display: block;
-    background: url(icons8-info.svg) center center / contain no-repeat;
+    background: url(../image/icons8-info.svg) center center / contain no-repeat;
     position: absolute;
     left: 0px;
 }
@@ -843,7 +908,7 @@ input:focus{
     width: 20px;
     height: 20px;
     /* border: 2px solid; */
-    content:url(icons8-external-link-13.svg) ;
+    content:url(../image/icons8-external-link-13.svg) ;
     display: inline-block;
 
     top: 1px;
@@ -855,7 +920,7 @@ input:focus{
     width: 20px;
     height: 20px;
     /* border: 2px solid; */
-    content:url(icons8-external-link-13.svg) ;
+    content:url(../image/icons8-external-link-13.svg) ;
     display: inline-block;
 
     top: 1px;
@@ -914,8 +979,8 @@ input:focus{
 }
 
 .style-63 {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 2rem;
+    padding-left: 18px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
